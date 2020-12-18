@@ -1,3 +1,6 @@
+/*
+* 프로그램이 동작할 때 필요한 모든 정보와 상수들을 정의한 곳
+*/
 #pragma once
 
 #define LENGTH 64
@@ -15,6 +18,7 @@
 
 #define uint unsigned int
 
+// 구조체 안에 함수포인터를 통해 OOP의 클래스 메소드마냥 동작하기
 typedef struct info {
 	uint inventories[ITEMS];
 	uint prices[ITEMS];

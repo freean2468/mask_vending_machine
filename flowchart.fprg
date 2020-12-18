@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="freea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-18 03:59:39 &#50724;&#51204;"/>
+        <attribute name="created" value="ZnJlZWE7REVTS1RPUC1IOTg0QUcwOzIwMjAtMTItMTg7MDM6NDU6NTIg7Jik7KCEOzEwNDU2OQ=="/>
+        <attribute name="edited" value="ZnJlZWE7REVTS1RPUC1IOTg0QUcwOzIwMjAtMTItMTg7MDM6NTk6Mzkg7Jik7KCEOzE7MTA0Njg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="setConsoleWindow()"/>
+            <declare name="input" type="Integer" array="False" size=""/>
+            <assign variable="input" expression="0"/>
+            <while expression="input!=&quot;q&quot; || input!=&quot;Q&quot;">
+                <call expression="printVM()"/>
+                <call expression="printInfo()"/>
+                <input variable="input"/>
+                <if expression="input==&quot;J&quot;||input==&quot;j&quot;">
+                    <then>
+                        <call expression="left()"/>
+                    </then>
+                    <else>
+                        <if expression="input==&quot;L&quot;||input==&quot;l&quot;">
+                            <then>
+                                <call expression="right()"/>
+                            </then>
+                            <else>
+                                <if expression="input==&quot;i&quot;||input==&quot;I&quot;">
+                                    <then>
+                                        <call expression="insertCoin()"/>
+                                    </then>
+                                    <else>
+                                        <if expression="input==32">
+                                            <then>
+                                                <call expression="purchaseMask()"/>
+                                            </then>
+                                            <else/>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <call expression="clearScreen()"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,9 +1,11 @@
 #include "helper.h"
 #include "info.h"
 
+// vendingMachine sprite 출력
 void printVM() {
     for (int i = 0, j = 0; i < WINDOW_HEIGHT * WINDOW_WIDTH; ) {
 
+        // 현재 선택된 아이템에 따라 색깔을 주고
         if (i % WINDOW_WIDTH >= 5 && i % WINDOW_WIDTH <= 37 
             && j >= 7 && j <= 23 && info.pGetSelected() == ITEM_1)
             setCyan();
@@ -14,6 +16,7 @@ void printVM() {
             && j >= 7 && j <= 23 && info.pGetSelected() == ITEM_3)
             setRed();
 
+        // vendingMachine[i++]
         printf("%c", *((char*)vendingMachine + i++));
         if (!(i % WINDOW_WIDTH)) {
             j++;
@@ -23,6 +26,7 @@ void printVM() {
     }
 }
 
+// 각종 정보 출력
 void printInfo() {
     printf("%30s%32s%37s\n", "의료용 마스크", "KF-95마스크", "복면마스크");
     printf("<-J%117s\n", "L->");

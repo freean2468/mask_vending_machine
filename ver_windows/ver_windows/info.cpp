@@ -42,12 +42,14 @@ uint getMoney() {
 void setMessage(const char* p) {
 	char* pMessage = info.message;
 
+	// 메세지 초기화
 	while (*pMessage) {
 		*(pMessage++) = '\0';
 	}
 
 	pMessage = info.message;
 
+	// 메세지 복사
 	while (*p) {
 		*(pMessage++) = *(p++);
 	}
