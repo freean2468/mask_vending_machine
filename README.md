@@ -1,2 +1,11 @@
 # mask_vending_machine
-C로 제작한 마스크 자판기 프로그램. 콘솔 코딩 예술의 극치를 보여드리겠습니다.
+C로 제작한 마스크 자판기 프로그램.
+
+![mask_vending_machine_preview](https://i.imgur.com/Pk2uXN2.jpg)
+
+### 개발 환경
+* Visual Studio 2019 on Windows 10
+* C 언어
+
+### 실행 영상
+https://youtu.be/UUxt6wQskPI
