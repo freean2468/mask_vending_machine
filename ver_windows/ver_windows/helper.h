@@ -28,5 +28,7 @@ int restore_tty_attributes();
 extern int zeroBufferGetchar();
 
 extern void setRed();
+extern void setCyan();
+extern void setBlue();
 extern void reset();
 extern void clearScreen();

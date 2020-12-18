@@ -34,22 +34,20 @@ int main(void)
         if (c == 'q' || c == 'Q') {
             break;
         }
-        else if (c == 'J' || c == 'j') { // 'J'
+        else if (c == 'J' || c == 'j') {
             info.pLeft();
         }
-        else if (c == 'L' || c == 'l') { // 'L'
+        else if (c == 'L' || c == 'l') {
             info.pRight();
         }
-        else if (c == 'c' || c == 'C') {
+        else if (c == 'i' || c == 'I') {
             info.pInsertCoin();
         }
         else if (c == 32) { // space
-            
+            info.pPurchaseMask();
         }
 
         clearScreen();
-
-        printf("%d\n", c);
     }
 
     return 0;
