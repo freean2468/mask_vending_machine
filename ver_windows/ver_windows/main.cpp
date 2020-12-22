@@ -27,6 +27,10 @@ int main(void)
         화면 초기화
     }
     */
+
+    // 이상하게 먼저 clearScreen을 하지 않으면 release혹은 debug 실행 파일을 통해 실행 시 문자가 깨져서 나온다.
+    clearScreen();
+
     while (1) {
         printVM();
         printInfo();

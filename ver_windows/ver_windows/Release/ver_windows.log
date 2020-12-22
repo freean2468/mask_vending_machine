@@ -1,10 +1,8 @@
-﻿  info.cpp
+﻿  helper.cpp
   main.cpp
-  sprites.cpp
-  helper.cpp
-  UI.cpp
   코드를 생성하고 있습니다.
-  Previous IPDB not found, fall back to full compilation.
-  All 26 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  1 of 26 functions ( 3.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
-  ver_windows.vcxproj -> D:\repository\mask_vending_machine\ver_windows\Release\ver_windows.exe
+  ver_windows.vcxproj -> \\192.168.0.20\공유폴더6반\12.프로젝트평가(프로그래밍언어활용)\송훈일\mask_vending_machine\ver_windows\Release\ver_windows.exe
